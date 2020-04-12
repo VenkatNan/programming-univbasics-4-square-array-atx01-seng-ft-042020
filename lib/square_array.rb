@@ -1,11 +1,12 @@
 def square_array(array)
   count = 0
   sqrArray=[]
-  num=array[count]
+  num=0
+  sqa=0
   while count < array.length do
    array[count] = num
-   Math.sqrt(num)
-  sqrArray.push(num)
+   sqa = Math.sqrt(num)
+   sqrArray << sqa
     count += 1
   end
   sqrArray
