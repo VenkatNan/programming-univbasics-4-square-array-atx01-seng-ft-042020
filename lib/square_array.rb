@@ -4,8 +4,8 @@ def square_array(array)
   num=0
   while count < array.length do
    num= array[count]
-   Math.sqrt(num)
-   sqrArray << num
+   
+   sqrArray << Math.sqrt(num)
    count += 1
   end
   sqrArray
